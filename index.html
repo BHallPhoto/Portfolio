@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">  
+  <!-- Import Google Icon Font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Import materialize.css -->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  <!-- Custom JS -->
+  <!-- Import of Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <div class="navbar-fixed">
+    <nav class="navCenter blue-grey">
+      <div class="nav-wrapper">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="hide-on-med-and-down">
+          <li><a class="waves-effect waves-light" href="#about">About</a></li>
+          <li><a class="waves-effect waves-light" href="#projects">Projects</a></li>
+          <li><a class="waves-effect waves-light" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+    
+    <!-- SideNav -->
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  <!-- End Navigation -->
+
+  <!-- Home Section -->
+  <section id="home" class="home section">
+    <div class="container valign-wrapper">
+      <div class="cenBox">
+        <div id="icons" class="icons center-align">
+            <a class="btn-floating waves-effect waves-blue-grey white" href="https://www.facebook.com/bristoljhall" target="_blank"><i class="blue-grey-text fab fa-facebook-f"></i></a>
+            <a class="btn-floating waves-effect waves-blue-grey white" href="https://github.com/BHallPhoto" target="_blank"><i class="blue-grey-text fab fa-github"></i></a>
+            <a class="btn-floating waves-effect waves-blue-grey white" href="https://www.pinterest.com/bristolhall" target="_blank"><i class="blue-grey-text fab fa-pinterest-p"></i></a>
+            <a class="btn-floating waves-effect waves-blue-grey white" href="https://www.instagram.com/zip_the_redheeler" target="_blank"><i class="blue-grey-text fab fa-instagram"></i></a>
+        </div>
+        <div class="typewriter">
+          <h2 id="nameIt" class="myBrand center-align">Hi, I'm Bristol :)</h2>
+        </div>
+        <p class="center-align">I'm a Developer, Photographer, and Dog owner.<br>And occasionally a Ring Maker</p>
+      </div>
+    </div>
+  </section>
+  <!-- End of Home Section -->
+
+  <!-- About Section -->
+  <section id="about" class="about section scrollspy">
+    <div class="container valign-wrapper">
+      <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="card-panel grey lighten-5 z-depth-0">
+          <div class="row">
+            <div class="col m2 s4 offset-s4">
+              <img src="./assets/me-n-zip.JPG" alt="" class="circle responsive-img"> <!-- "circle" class for circular img -->
+            </div>
+            <div class="col m10 s12">
+              <span class="grey-text text-darken-3">
+                Bristol has lived in Foresthill, Ca nearly his whole life. He has begun to fullfill his passion for Web-Development. 
+                For many years he has dabbled around with coding, but nothing as intense as the recent year. He is begining to understand 
+                and write the language of the web. Focusing mainly on JavaScript and JavaScript modules. So bear with him as he curves his 
+                way to creating stunning websites.<br>
+                <br>
+                He also has a passion for Photography, and also to become a Ring Maker following in his Fathers footsteps to becoming a well 
+                known Jeweler of the Sierra Nevadas. And he never leaves to go on adventures without his Queensland Heeler named Zip (he was 
+                named after Zip (a Queensland Heeler) from the movie "Last of the Dogmen").
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Projects Section-->
+  <section id="projects" class="projects section scrollspy">
+    <div class="container">
+      <div class="header">
+        <h3>Projects</h3>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/pages/survey.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-3">Survey Form<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://bhallphoto.github.io/SurveyFormFCC" target="_blank">GitHub Page</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-3">Survey Form<i class="material-icons right">close</i></span>
+              <p>This is the Survey Form page created for Free Code Camp (FCC).</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/pages/product.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-3">Landing Page<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://bhallphoto.github.io/ProductLandingPageFCC" target="_blank">GitHub Page</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-3">Product Landing Page<i class="material-icons right">close</i></span>
+              <p>This is the Product Landing Page created for Free Code Camp (FCC). Also using <a href="https://materializecss.com">Materialize-css</a> 
+              for the CSS Theme. Also using some custom CSS.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 ">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/pages/documentation.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-3">Documentation<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://bhallphoto.github.io/DocumentationPageFCC" target="_blank">GitHub Page</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-3">Documentation Page<i class="material-icons right">close</i></span>
+              <p>This is the Documentation Page created for Free Code Camp (FCC). Also using <a href="https://materializecss.com">Materialize-css</a> 
+              for the CSS Theme. Also using some custom CSS.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 offset-l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/pages/quote.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-3">Random Quote<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://bhallphoto.github.io/FCC-RandomQuoteMachine" target="_blank">GitHub Page</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-3">Random Quote Machine<i class="material-icons right">close</i></span>
+              <p>This is the Random Quote Machine created for Free Code Camp (FCC). Also using some custom CSS.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section-->
+
+  <!-- Contact -->
+  <section id="contact" class="contact section scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l5">
+          <h2 class="idigo-text text-darken-4">Get In Touch</h2>
+          <p>If you would like to get in touch with me Please fill out the Form</p>
+          <p>As I stated I'm beginning to create stunning websites, while learnding different
+            Frameworks including (HTML5, CSS3, ES6, React) and other Libraries including (Materialize CSS, Bootstrap4, flexbox)</p>
+          <p>I also have skills in Photography and Ring Making. My photography includes (Abstract, Landscape, Monochrome, Natue), 
+            And for the Ring Making, I make bentwood rings using a variety of exotic woods, and using exotic materials including(Meteorite, 
+            Fossilized Bones, Teeth, and Wood, mixed with metals of all types).</p>
+        </div>
+        <div class="col s12 l5 offset-l2">
+          <form class="gform" method="POST" data-email="bristolhall@gmail.com" action="https://script.google.com/macros/s/AKfycbzA5qiMeFLocQmHyhsrNWJKr0Xj5alkT2Sk891wvHQJhQo-Ia9C/exec">
+            <!--input id must be honeypot or else it wont work-->
+              <label class="sr-only"></label>
+              <input id="honeypot" type="text" name="honeypot" value="" />
+            <div class="form-elements">
+              <div class="input-field">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="icon_prefix" type="text" class="validate" name="Name">
+                <label for="icon_prefix">First Name</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">email</i>
+                <input type="email" id="email" class="validate" name="Email">
+                <label for="email">Your Email</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">message</i>
+                <textarea class="materialize-textarea" id="message" name="Message"></textarea>
+                <label for="message">Your Message</label>
+              </div>
+              <div class="input-field">
+                <input type="text" id="date" class="datepicker" name="Date">
+                <label for="date">Choose a date you need me for...</label>
+              </div>
+              <div class="input-field">
+                <p>Services required...</p>
+                <div class="row">
+                  <div class="col s6">
+                    <p>
+                      <label for="checkboxes--web-services">
+                        <input type="checkbox" id="checkboxes--web-services" name="Checkboxes" value="Web-services">
+                        <span>Web Services</span>
+                      </label>
+                    </p>
+                  </div>
+                  <div class="col s6">
+                    <p>
+                      <label for="checkboxes--photography">
+                        <input type="checkbox" id="checkboxes--photography" name="Checkboxes" value="Photography">
+                        <span>Photography</span>
+                      </label>
+                    </p>
+                  </div>
+                  <div class="col s6">
+                    <p>
+                      <label for="checkboxes--ring-making">
+                        <input type="checkbox" id="checkboxes--ring-making" name="Checkboxes" value="Ring-making">
+                        <span>Make a Ring</span>
+                      </label>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="input-field center">
+                <button class="btn orange">Submit</button>
+              </div>
+            </div>
+            <div style="display:none" class="thankyou_message">
+              <!-- You can customize the thankyou message by editing the code below -->
+              <span><em>Thanks</em> for contacting Bristol! He will get back to you at a timely manner. :)
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Contact -->
+
+  <!-- Footer -->
+  <footer class="page-footer blue-grey darken-2">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l6">
+            <p><b>SlyDingo</b> is the personal portfolio of freelance designer / developer - Bristol Hall. 
+            Showcasing UI & Interactive work, as well as Photography, and Ring Making.</p>
+          </div>
+          <div class="col s12 l4 offset-l2">
+            <p>Hand Coded with <span style="color: #e25555;">🧡</span> in Foresthill, California<br>Running on <a href="https://materializecss.com">Materialize CSS</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright grey darken-4">
+        <div class="container center-align">&copy; 2019 SlyDingo</div>
+      </div>
+    </footer>
+  
+  <!-- Return to Top -->
+  <a href="javascript:" id="return-to-top" class='tooltipped waves-effect waves-blue-grey' data-tooltip='Back to Top!'><i class="material-icons">arrow_drop_up</i></a>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="js/form-submission-handler.js"></script>
+  <script>
+  // ===== Scroll to Top ==== 
+  $(window).scroll(function() {
+        if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+            $('#return-to-top').fadeIn(200);    // Fade in the arrow
+        } else {
+            $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+        }
+      });
+      $('#return-to-top').click(function() {    // When arrow is clicked
+        $('body,html').animate({
+            scrollTop : 0                       // Scroll to top of body
+        }, 500);
+      });
+  // ===== Materialize JS =====
+  $(document).ready(function(){
+      $('.datepicker').datepicker();
+      $('.sidenav').sidenav();
+      $('.scrollspy').scrollSpy();
+  });/* spacer */</script>
+</body>
+</html>

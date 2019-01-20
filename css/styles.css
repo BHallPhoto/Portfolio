@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+nav.navCenter ul {
+  text-align: center;
+}
+nav.navCenter ul li {
+  display: inline;
+  float: none;
+}
+nav.navCenter ul li a {
+  display: inline-block;
+}
+
+#home {
+  background: url("../assets/bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#home .container {
+  height: 95vh;
+}
+#about .container {
+  padding: 50px 0;
+}
+
+.cenBox {
+  width: 100%;
+}
+
+#home p {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+#icons a {
+  margin: 0 8px;
+}
+
+.card a {
+  color: #637B8A;
+}
+.card a:hover {
+  color: white;
+  background-color: rgba(255, 123, 0, 0.75);
+}
+
+#projects {
+  background-color: #637B8A;
+}
+#projects .header {
+  position: relative;
+  left: 30px;
+}
+
+/* Materialize Custom Waves Color */
+.waves-effect.waves-blue-grey .waves-ripple {
+  /* The alpha value allows the text and background color
+  of the button to still show through. */
+  background-color: rgba(99, 123, 138, 0.6);
+}
+
+/* Animation Effect for Greeting */
+.typewriter h2 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 4em;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /*letter-spacing: .15em;  Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  padding-top: 15px;
+  width: 0;
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+@media screen and (max-width: 640px) {
+  .typewriter h2 {
+    font-size: 2.75em;
+  }
+  #home p {
+    font-size: 1em;
+    font-weight: 400;
+  }
+}
+/* End of Animation */
+
+/* Return to Top */
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #637B8A;
+  background: rgba(99, 123, 138, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  box-shadow: 0px 0px 2px 2px rgba(255, 255, 255, 0.5);
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top i {
+  color: white;
+  margin: 0;
+  position: relative;
+  left: 12px;
+  top: 12px;
+  font-size: 27px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top:hover {
+  background: rgb(255, 255, 255);
+  box-shadow: 0 0 2px 2px rgb(147, 167, 179);
+}
+#return-to-top:hover i {
+  color: #637B8A;
+  top: 5px;
+}
+/* Return to Top End */
+
+/* Materialize Custom colors */
+/* label color */
+.input-field label {
+  color: rgb(157, 156, 157);
+}
+/* label focus color */
+.input-field input[type=text]:focus + label, input[type=email]:focus + label, textarea:focus + label {
+  color: rgb(255, 123, 0) !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus, input[type=email]:focus, textarea:focus {
+  border-bottom: 1px solid rgb(255, 123, 0) !important;
+  box-shadow: 0 1px 0 0 rgba(255, 123, 0, 0.5) !important;
+}
+/* valid color */
+.input-field input[type=text].valid, input[type=email].valid {
+  border-bottom: 1px solid rgb(0, 125, 255) !important;
+  box-shadow: 0 1px 0 0 rgba(0, 123, 255, 0.5) !important;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix {
+  color: rgb(59, 59, 59) !important;
+}
+
+.input-field .prefix.active {
+  color: rgb(255, 123, 0) !important;
+}
+
+[type="checkbox"]:checked+span:not(.lever):before {
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid rgb(255, 123, 0); /* You need to change the colour here */
+  border-bottom: 2px solid rgb(255, 123, 0); /* And here */
+}
+
+.datepicker-date-display {
+  background-color: rgb(255, 123, 0);
+}
+
+.datepicker-cancel, .datepicker-done {
+  color: rgb(255, 123, 0);
+}
+
+.datepicker-table td.is-selected {
+  background-color: rgb(255, 123, 0);
+}
+
+button:focus {
+  background-color: rgb(255, 123, 0);
+}
+
+footer {
+  font-size: .85em;
+}
+
+footer .container {
+  padding: 25px 0;
+}
+
+footer a {
+  color: rgb(151, 151, 151);
+}
+footer a:hover {
+  color: rgb(255, 123, 0);
+}
+
+#honeypot {
+  display: none; /*makes the field not visible to humans*/
+}
+
