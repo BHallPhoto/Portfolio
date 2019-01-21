@@ -228,13 +228,12 @@
                 </div>
               </div>
               <div class="input-field center">
-                <button class="btn orange">Submit</button>
+                <button class="btn orange" onclick="startTimer()">Submit</button>
               </div>
             </div>
-            <div style="display:none" class="thankyou_message">
+            <div style="display:none" class="thankyou_message center-align">
               <!-- You can customize the thankyou message by editing the code below -->
-              <span><em>Thanks</em> for contacting Bristol! He will get back to you at a timely manner. :)
-              </span>
+              <span id="anim-typewriter"></span>
             </div>
           </form>
         </div>
@@ -267,6 +266,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="./js/script.js"></script>
   <script src="js/form-submission-handler.js"></script>
   <script>
   // ===== Scroll to Top ==== 

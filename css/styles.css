@@ -59,6 +59,10 @@ nav.navCenter ul li a {
   left: 30px;
 }
 
+#contact {
+  height: 100%;
+}
+
 /* Materialize Custom Waves Color */
 .waves-effect.waves-blue-grey .waves-ripple {
   /* The alpha value allows the text and background color
@@ -223,5 +227,12 @@ footer a:hover {
 
 #honeypot {
   display: none; /*makes the field not visible to humans*/
+}
+
+.thankyou_message {
+  color: rgb(255, 123, 0);
+  padding-top: 50%;
+  padding-bottom: 50%;
+  text-shadow: 1px 1px 2px grey;
 }
 
